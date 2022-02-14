@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.topo{
+    display: flex;
+    max-width: 100vw;
+    max-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+}
+
+.nome{
+    margin-left: 30px;
+}
+
+.nome h1 {
+    font-size: 3em;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nome h2 {
+    font-size: 1.5em;
+    background-color: rgb(224, 222, 222);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-right: 2em;
+    display: flex;
+    height: 100px;
+}
+
+
+.painel {
+    background-color: beige;
+    height: 700px;
+}
+
+.painel .titulo {
+    color: rgb(109, 108, 108);
+    margin: 10px;
+    display: inline-block;
+    padding: 15px;
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.painel{
+    height: 1000px;
+
+}
+
+.painel iframe{
+    display: flex;
+    text-align: center;
+    border-style: none;
+    background-color: darkgoldenrod;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 93vw;
+    margin: 10px 30px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+footer .contato{
+    background-color: lightgray;
+    padding: 30px;
+
+}
+footer h1 {
+    font-size: 2em;
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+footer h2 {
+    font-size: 1.2em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+footer li, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    line-height: 20px;
+    margin-bottom: 30px;
+
+}
+
+@media(max-width:504px){
+    .header, .nome{
+        display: block;
+        text-align: center;
+    }
+
+    .logo #html img{
+        display: block;
+        margin: 0 50px 100px 50px;
+        padding: 60px;
+        text-align: center;
+    }
+
+    footer{
+        display: block;
+    }
+
+    .contato{
+        margin-bottom: 20px;
+    }
+}
